@@ -1,7 +1,7 @@
 package cc.dreamcode.timeshop.config;
 
-import cc.dreamcode.menu.serdes.bukkit.okaeri.MenuBuilderSerdes;
-import cc.dreamcode.notice.okaeri_serdes.BukkitNoticeSerdes;
+import cc.dreamcode.menu.bukkit.okaeri.MenuBuilderSerdes;
+import cc.dreamcode.notice.minecraft.bukkit.serdes.BukkitNoticeSerdes;
 import eu.okaeri.configs.ConfigManager;
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.serdes.OkaeriSerdesPack;

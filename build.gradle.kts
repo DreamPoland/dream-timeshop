@@ -44,15 +44,14 @@ dependencies {
 
     // =-- dreamcode --=
     // notice
-    implementation("cc.dreamcode.notice:core:1.0.4")
-    implementation("cc.dreamcode.notice:bukkit:1.0.4")
-    implementation("cc.dreamcode.notice:bukkit-okaeri-serdes:1.0.4")
+    implementation("cc.dreamcode.notice:minecraft:1.3.3")
+    implementation("cc.dreamcode.notice:bukkit:1.3.3")
+    implementation("cc.dreamcode.notice:bukkit-serdes:1.3.3")
 
     // menu
-    implementation ("cc.dreamcode.menu:core:0.4.2")
-    implementation ("cc.dreamcode.menu:bukkit:0.4.2")
-    implementation ("cc.dreamcode.menu:serdes-bukkit:0.4.2")
-    implementation ("cc.dreamcode.menu:serdes-bukkit-okaeri:0.4.2")
+    implementation("cc.dreamcode.menu:core:1.0.13")
+    implementation("cc.dreamcode.menu:bukkit:1.0.13")
+    implementation("cc.dreamcode.menu:bukkit-serdes:1.0.13")
 
     // =-- Others --=
     // bStats

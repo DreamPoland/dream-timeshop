@@ -1,7 +1,7 @@
 package cc.dreamcode.timeshop;
 
+import cc.dreamcode.menu.bukkit.BukkitMenuBuilder;
 import cc.dreamcode.menu.bukkit.base.BukkitMenu;
-import cc.dreamcode.menu.serdes.bukkit.BukkitMenuBuilder;
 import cc.dreamcode.timeshop.builder.ItemBuilder;
 import cc.dreamcode.timeshop.config.MessagesConfiguration;
 import cc.dreamcode.timeshop.config.PluginConfiguration;
@@ -37,7 +37,7 @@ public class TimeShopMenu {
 
     public void open(Player player) {
         BukkitMenuBuilder builder = this.configuration.menu;
-        BukkitMenu menu = builder.build();
+        BukkitMenu menu = builder.buildEmpty();
 
         User user = this.userRepository.findOrCreate(player.getUniqueId(), player.getName()).join();
 

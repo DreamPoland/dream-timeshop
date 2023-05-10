@@ -1,7 +1,6 @@
 package cc.dreamcode.timeshop;
 
 import cc.dreamcode.menu.bukkit.BukkitMenuProvider;
-import cc.dreamcode.notice.bukkit.BukkitNoticeProvider;
 import cc.dreamcode.timeshop.command.CommandConfiguration;
 import cc.dreamcode.timeshop.command.argument.UserArgument;
 import cc.dreamcode.timeshop.command.configurer.CommandConfigurer;
@@ -60,7 +59,6 @@ public class TimeShopPlugin extends JavaPlugin {
         this.config = this.configService.create(PluginConfiguration.class, new File(this.getDataFolder(), "config.yml"));
 
         BukkitMenuProvider.create(this);
-        BukkitNoticeProvider.create(this);
 
         PersistenceCollection userCollection = PersistenceCollection.of(UserRepository.class);
 

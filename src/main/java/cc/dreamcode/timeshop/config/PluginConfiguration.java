@@ -1,6 +1,6 @@
 package cc.dreamcode.timeshop.config;
 
-import cc.dreamcode.menu.serdes.bukkit.BukkitMenuBuilder;
+import cc.dreamcode.menu.bukkit.BukkitMenuBuilder;
 import cc.dreamcode.timeshop.builder.ItemBuilder;
 import cc.dreamcode.timeshop.config.item.ProductItem;
 import cc.dreamcode.timeshop.config.sub.StorageConfig;
@@ -37,6 +37,7 @@ public final class PluginConfiguration extends OkaeriConfig implements ProductSe
             "&6Sklep za czas!",
             3,
             true,
+            false,
             new ImmutableMap.Builder<Integer, ItemStack>()
                     .put(26, new ItemBuilder(Material.GOLD_INGOT)
                             .setName("&eTwoje monety czasu")
