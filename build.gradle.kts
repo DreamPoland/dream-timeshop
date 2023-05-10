@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "cc.dreamcode"
-version = "1.0.2"
+version = "1.0.3"
 val mainPackage = "cc.dreamcode.timeshop"
 
 repositories {
